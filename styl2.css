@@ -1,7 +1,21 @@
 body{
     margin: 0;
+    
 }
 div#kontener{
+    height: 1vh;
+}
+div#baner{
     background-color: black;
     color: white;
+}
+td{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
