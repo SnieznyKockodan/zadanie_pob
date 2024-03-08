@@ -1,6 +1,10 @@
 body{
     margin: 0;
-    
+    font-family: Helvetica, sans-serif;
+    color: #222;
+    margin: auto;
+    width: 90%;
+    background-color: linen;
 }
 div#kontener{
     height: 1vh;
@@ -26,6 +30,9 @@ td{
 #baner{
     display: flex;
 }
+input{
+    width: 150px;
+}
 footer{
     background-color: black;
     color: white;
@@ -42,6 +49,7 @@ td{
     padding: 30px;
     text-align: center;
     font-weight: 1000;
+    border: none;
 }
 a{
     color: #aaa;

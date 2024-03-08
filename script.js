@@ -8,4 +8,4 @@ function zmianakoloru(){
     td[3].setAttribute("style","background-color: hsl("+num.value+", 40%, 50%);");
     td[4].setAttribute("style","background-color: hsl("+num.value+", 20%, 50%);");
 }
-zmianakoloru()
+// zmianakoloru()
