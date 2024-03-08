@@ -5,9 +5,17 @@ body{
 div#kontener{
     height: 1vh;
 }
-div#baner{
+div#baner > div{
     background-color: black;
     color: white;
+    width: 50%;
+    height: 100px;
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+    border-bottom: solid 1px white;
 }
 td{
     width: 80px;
@@ -15,8 +23,30 @@ td{
     border: 1px solid;
     text-align: center ;
 }
+#baner{
+    display: flex;
+}
 footer{
     background-color: black;
     color: white;
     text-align: center;
+    padding: 20px;
+}
+#glowny{
+    padding: 20px;
+}
+table{
+    margin: 40px;
+}
+td{
+    padding: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+a{
+    color: #aaa;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
 }
